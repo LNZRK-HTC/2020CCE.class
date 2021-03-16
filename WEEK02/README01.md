@@ -30,7 +30,7 @@ int main()
    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 }
 ```
-![image](https://user-images.githubusercontent.com/71545492/111336343-1d5e0880-86b0-11eb-84a4-31fcd8819315.png)
+![image](https://user-images.githubusercontent.com/71545492/111337059-b8ef7900-86b0-11eb-8658-e14aee2b8d07.png)
 ![image](https://user-images.githubusercontent.com/71545492/111336439-35ce2300-86b0-11eb-8a74-7db4ebae0847.png)
 
 利用 p2=p 讓口袋的address位址換了一張, 所以 * p2=400 就會換到其他地方送400元
