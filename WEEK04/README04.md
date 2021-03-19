@@ -82,7 +82,7 @@ struct POINT {
     float x,y,z;
 };
 
-struct POINT point[5]={{0,0,0},{1,0,0},{0,0,1},{1,1,1}};
+struct POINT point[5]={{0,0,0},{1,0,0},{0,1,0},{0,0,1},{1,1,1}};
 
 int main()
 {
@@ -96,4 +96,4 @@ int main()
     printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
 }
 ```
-![week04-5](https://user-images.githubusercontent.com/71545492/111728486-ec482880-88a7-11eb-8ae7-5583b1351629.png)
+![week04-5](https://user-images.githubusercontent.com/71545492/111728809-9d4ec300-88a8-11eb-8ec1-e70986abea14.png)
