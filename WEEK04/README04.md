@@ -14,3 +14,20 @@ int main()
 }
 ```
 ![week04-1](https://user-images.githubusercontent.com/71545492/111721008-0844cd80-889a-11eb-80ee-476265fd441b.png)
+
+
+```c
+#include <stdio.h>
+
+struct POINT {
+    float x,y;
+};
+
+int main()
+{
+    struct POINT a = {4.1,3.2};
+    printf("%f %f\n",a.x,a.y);
+}
+```
+![week04-2](https://user-images.githubusercontent.com/71545492/111722247-712d4500-889c-11eb-9869-a90d1842add5.png)
+
