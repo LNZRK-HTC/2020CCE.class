@@ -50,3 +50,27 @@ int main()
 }
 ```
 ![week04-3](https://user-images.githubusercontent.com/71545492/111722786-7f2f9580-889d-11eb-818e-9c8ca7eeaf0f.png)
+
+
+```c
+#include <stdio.h>
+struct DATA{
+    int x,y;
+}a[3];
+struct DATA b={100,200};
+int main()
+{
+    for(int i=0;i<3;i++)
+    {
+        printf("a[%d]:%d %d\n",i,a[i].x,a[i].y);
+    }
+    printf("b: %d %d\n",b.x,b.y);
+
+    struct DATA c;
+    printf("c: %d  %d   像亂碼\n",c.x,c.y);
+
+    c=b;///較好的寫法:c.x=b.x; c.y=b.y;
+    printf("c: %d %d\n",c.x,c.y);
+}
+```
+![week04-4](https://user-images.githubusercontent.com/71545492/111724859-f87cb780-88a0-11eb-8e8e-32cbcf1e9ddc.png)
