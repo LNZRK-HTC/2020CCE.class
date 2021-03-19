@@ -1,5 +1,6 @@
 ## 第四周正課
 
+struct 結構 (定義/宣告、使用)
 ```c
 #include <stdio.h>
 
