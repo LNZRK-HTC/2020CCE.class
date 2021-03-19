@@ -74,3 +74,26 @@ int main()
 }
 ```
 ![week04-4](https://user-images.githubusercontent.com/71545492/111724859-f87cb780-88a0-11eb-8e8e-32cbcf1e9ddc.png)
+
+
+```c
+#include <stdio.h>
+struct POINT {
+    float x,y,z;
+};
+
+struct POINT point[5]={{0,0,0},{1,0,0},{0,0,1},{1,1,1}};
+
+int main()
+{
+    struct POINT *p =& point[0];
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+
+    p++;
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+
+    p++;
+    printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
+}
+```
+![week04-5](https://user-images.githubusercontent.com/71545492/111728486-ec482880-88a7-11eb-8ae7-5583b1351629.png)
