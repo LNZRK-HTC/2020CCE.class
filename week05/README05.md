@@ -9,6 +9,12 @@ int main()
 
     printf("%s\n",line);
     printf("%s\n",line2);
+
+    char line3[]="majority";
+    printf("%s\n",line3);
+    char line4[]={'m','a','j','o','r','i','t','y'};
+    printf("line4:==%s==\n",line4);
 }
 ```
-![week05-1](https://user-images.githubusercontent.com/71545492/112565467-105fb880-8e18-11eb-9e5c-5767d767c0a0.png)
+![week05-1](https://user-images.githubusercontent.com/71545492/112566602-44d47400-8e1a-11eb-82a4-873d265e3687.png)
+
